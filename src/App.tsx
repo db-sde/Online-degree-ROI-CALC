@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { Calculator as CalcIcon, TrendingUp, MessageCircle } from 'lucide-react';
+import logo from './assets/logo.jpg';
 
 // src/App.tsx — top of file
 const CONFIG = {
   brandName: 'DegreeBaba',
-  logoSrc: '', // imported PNG/SVG asset, or remove for text fallback
+  logoSrc: logo, // imported PNG/SVG asset, or remove for text fallback
   currencySymbol: '₹',
   currencyLocale: 'en-IN',  // used by toLocaleString()
   expertCtaLabel: 'Talk to Expert',
